@@ -1,5 +1,9 @@
+import HeroHeader from "./components/HeroHeader";
+
 const App = () => {
-  return <h1>Hello World</h1>
+  return <>
+    <HeroHeader />
+  </>
 }
 
 export default App;

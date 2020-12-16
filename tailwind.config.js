@@ -2,7 +2,11 @@ module.exports = {
   purge: ["./src/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: theme => ({
+      //   'hero-img': "url('/img/hero.webp')"
+      // })
+    },
   },
   variants: {
     extend: {},

@@ -1,4 +1,4 @@
-import ListSectionItem from "./ListSectionItem";
+import ListSectionItem from "./Feature";
 
 type Props = {
   title: string

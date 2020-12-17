@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-// import '../public/img/hero.webp'
 import './style/base.css';
 
 import reportWebVitals from './reportWebVitals';

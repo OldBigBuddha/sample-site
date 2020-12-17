@@ -4,7 +4,7 @@ type Props = {
 }
 
 const ListSectionItem: React.FC<Props> = ({title, description}) => (
-  <li>
+  <li className="w-1/4">
     <div className="p-6">
       <p className="text-xl font-bold text-center">{title}</p>
       <p>{description}</p>

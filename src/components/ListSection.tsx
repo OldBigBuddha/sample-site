@@ -6,16 +6,16 @@ type Props = {
 
 const samples = [
   {
-    title: "feature1",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent vel aliquam ligula."
+    title: "React",
+    description: "Build encapsulated components that manage their own state, then compose them to make complex UIs."
   },
   {
-    title: "feature2",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent vel aliquam ligula."
+    title: "Tailwind CSS",
+    description: "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."
   },
   {
-    title: "feature3",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent vel aliquam ligula."
+    title: "VS Code",
+    description: "Spend more time coding and less time switching between tools. Use features and extensions that integrate with Azure and GitHub to develop, debug, and deploy all from one place."
   }
 ]
 

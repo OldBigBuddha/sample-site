@@ -1,7 +1,7 @@
 
 const ProfileSection: React.FC = () => (
   <section className="px-36 py-12 bg-gray-800 text-white">
-    <h2 id="story" className="text-4xl font-bold text-center underline mb-8">Profile</h2>
+    <h2 id="profile" className="text-4xl font-bold text-center underline mb-8">Profile</h2>
     <div className="flex">
       <img src="https://randomfox.ca//images//54.jpg" className="h-96" alt="profile" />
       <div className="h-96 flex flex-col justify-center px-24">

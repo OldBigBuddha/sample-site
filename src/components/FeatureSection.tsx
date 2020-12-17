@@ -15,13 +15,13 @@ const samples = [
   }
 ]
 
-const ListSection: React.FC = () => (
+const FeatureSection: React.FC = () => (
   <section className="px-24 py-12 bg-red-200">
-    <h2 className="text-4xl font-bold text-center underline mb-8">Features</h2>
+    <h2 id="feature" className="text-4xl font-bold text-center underline mb-8">Features</h2>
     <ul className="flex justify-around">
       {samples.map(sample => <Feature title={sample.title} description={sample.description} />)}
     </ul>
   </section>
 )
 
-export default ListSection;
+export default FeatureSection;

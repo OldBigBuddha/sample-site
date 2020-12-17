@@ -1,8 +1,4 @@
-import ListSectionItem from "./Feature";
-
-type Props = {
-  title: string
-}
+import Feature from "./Feature";
 
 const samples = [
   {
@@ -19,11 +15,11 @@ const samples = [
   }
 ]
 
-const ListSection: React.FC<Props> = ({ title }) => (
+const ListSection: React.FC = () => (
   <section className="px-24 py-12 bg-red-200">
-    <h2 className="text-4xl font-bold text-center underline mb-8">{title}</h2>
+    <h2 className="text-4xl font-bold text-center underline mb-8">Features</h2>
     <ul className="flex justify-around">
-      {samples.map(sample => <ListSectionItem title={sample.title} description={sample.description} />)}
+      {samples.map(sample => <Feature title={sample.title} description={sample.description} />)}
     </ul>
   </section>
 )

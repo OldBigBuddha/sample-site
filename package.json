@@ -10,7 +10,7 @@
     "@testing-library/user-event": "12.6.0",
     "@types/jest": "26.0.19",
     "@types/node": "12.19.9",
-    "@types/react": "17.0.0",
+    "@types/react": "17.0.52",
     "@types/react-dom": "16.9.10",
     "autoprefixer": "9.8.6",
     "postcss": "7.0.35",

@@ -13,7 +13,7 @@
     "@types/react": "17.0.0",
     "@types/react-dom": "16.9.10",
     "autoprefixer": "9.8.6",
-    "postcss": "7.0.35",
+    "postcss": "8.4.38",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "4.1.0",
